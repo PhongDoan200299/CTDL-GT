@@ -1,0 +1,38 @@
+Bài 2: Bài toán tìm kiếm
+
+- Trong thực tế hầu hết các bài toán tin học đều là bài toán tìm kiếm:
++ Tìm kiếm một thông tin trên mạng
++ Tìm kiếm video yêu thích trên Youtube
++ Tìm kiếm một địa danh trên bản đồ
++ Tra cứu ý nghĩa của từ điển
++ ...
+
+Bài toán tìm kiếm
+- Công việc tìm kiếm phụ thuộc vòa nhiều yếu tố:
++ Tính chất 
++ Thuộc tính
++ Phạm vi
+
+Các dạng của bài toán tìm kiếm
++ Tìm kiếm một đối tượng K thỏa mãn điều kiện a,b,c
++ Tìm kiếm tất cả đối tượng K thỏa mãn điều kiện a,b,c
++ Tìm kiếm một đối tượng K thỏa mãn điều kiện a,b,c và thõa mãn thêm một điều kiện tối ưu nào đó: có chi phí thấp
+nhất,có độ dài nhỏ nhất...
++ Dạng toán và cách tìm kiếm phụ thuộc vào cấu trúc dữ liệu của miền tìm kiếm
++ Cần tổ chức cấu trúc dữ liệu của miền tìm kiếm để công việc tìm kiếm tối ưu nhất có thể
++ Bài toán ngược: cho đối tượng A thuộc tập hợp, kiểm tra A có thỏa mãn a,b,c
+
+Cấu trúc dữ liệu của miền tìm kiếm (U)
+- Một số cấu trúc dữ liệu điển hình
++ Danh sach		(List)
++ Ngăn xếp		(Stack)
++ Hàng đợi		(Queue)
++ Danh sách liên kết	(Linked List)
++ Cấu trúc nhiều chiều	(Ma trận)
++ Đống			(Heap)
++ Hàng đợi ưu tiên	(Priority Quere)
+
+1. TÌm kiếm tuần tự
+. Bài toán: cho trước dãy a1,a2, ... an và giá trị K. Cần tìm số I sao cho ai = K, nếu không tìm thấy thì trả về -1
+. Ý tưởng: 
+	- Lần lượt kiểm tra từng phần tử, nếu đến cuối dãy vẫn không tìm thấy thì thông báo kết quả là -1.
